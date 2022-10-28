@@ -1,21 +1,24 @@
 .card{
     border:3px solid black;
-    width:300px;
-    height: 450px;
+    width:380px;
+    height: 500px;
     display: block;
     margin:auto;
     border-radius: 60px;
-    box-shadow: 0 0 1px 3px rgb(25, 23, 23);;
+    box-shadow: 0 0 1px 3px rgb(25, 23, 23);
+    background-color:#D9D9D6;
+    ;
+
+
 }
 
 .card:hover{
-    border-radius: 22px;
+    border-radius: 50px;
     box-shadow: 1px 1px 0.5px 4px rgb(155, 139, 139);
 }
 
 .bulb-img{
-    display: block;
-    margin-top:30px;
+    margin-top:70px;
     height: 300px;
 }
 
@@ -31,17 +34,20 @@
     border:0.5px solid black;
     border-radius: 15px;
     cursor: pointer;
-    background-color: gray;   
+    background-color: #ffff;   
 }
 
-.btn-enabled{
+.btn-on-enabled{
     background-color:#009933;
     color: white;
+    margin-left: 10px;
+
 }
 
-.btn-unabled{
+.btn-off-enabled{
     background-color:#ff3333;
     color: white;
+    margin-right: 10px;
 }
 
 @media screen and (max-width:600px) and (max-width:768px){
@@ -54,10 +60,5 @@
         border-radius: 10px;
         box-shadow: 0 0 1px 3px rgb(155, 139, 139);
     }
-    .bulb-img{
-        display: block;
-        margin-top:30px;
-        height: 257px;
-    }
-    
+   
 }
